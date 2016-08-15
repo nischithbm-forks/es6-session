@@ -1,0 +1,2 @@
+- Spread operator, allows the expression to be expanded in place.
+- Spread operator is different then Rest parameters.
