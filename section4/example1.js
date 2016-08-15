@@ -1,8 +1,6 @@
-class Student{
-    constructor(name, score){
-        this.name = name;
-        this.score = score
-    }
+function addTwoNumber(number1, number2 =5){
+    return number1 + number2;
 }
-var student1 = new Student("Harpreet", 95);
-console.log("student1", student1);
+
+addTwoNumber(3,4);
+addTwoNumber(3);

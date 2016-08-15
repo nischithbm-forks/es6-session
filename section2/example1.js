@@ -1,24 +1,29 @@
-//Spread operator:  expanded in place
-var fruitArray = ["Apple", "Orange", "Grapes"];
-var allFruit = ["Water Melon", ...fruitArray, "Mango"];
-console.log(allFruit);
-
-//Spread element can be used with push method
-var evenArray = [2, 4, 6, 8, 10];
-var oddArray = [3, 5, 7, 9];
-evenArray.push(...oddArray);
-console.log("All elements: ",evenArray);
-
-//REST parameters are not spread
-function add (...numbers){
-    var sum  = 0;
-    for(var i =0; i<numbers.length; i++){
-        console.log( typeof numbers[i])
-        sum  = sum + numbers[i];
-        console.log("sum",sum)
+//Use of var
+function hello(){
+    if( 5 > 4 ){
+        var a = 7;
+        console.log(" var a: ", a);
     }
-    return sum;
+    console.log("var a: ", a);
 }
-add(2)
-add(2, 3)
-add(2, 3, 5)
+hello();
+
+//Use of let
+function hello(){
+    if( 5 > 4 ){
+        let a = 7;
+        console.log("let a: ", a);
+    }
+    console.log("let a: ", a);
+}
+hello();
+
+//Use of  constant
+function hello(){
+  if( 5 > 4 ){
+    const a = 7;
+  }const a = 7;
+   console.log("const a: ", a);
+}
+hello();
+

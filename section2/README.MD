@@ -1,9 +1,6 @@
-### Spread Operator
-- Spread operator, allows the expression to be expanded in place.
-- Spread operator is different then Rest parameters.
+### Let and const
 
-### Arrow Operator
-
-- It represents a function expression => 
-- It correctly binds the this  context.
-
+-  var creates a variable scoped within its nearest parent function.
+-  let scopes the variable to the nearest block.
+-  const, keyword is used for defining a constant.
+-  constant cannot share its name with a function or a variable in the same scope. 

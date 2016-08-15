@@ -1,11 +1,9 @@
-//Static method
-class Student{
-    static getSubject() {
-        return "computer";
-    }
-    constructor(name, score){
-        this.name = name;
-        this.score = score
-    }
+function bye(){
+    console.log("Inside bye");
 }
-console.log("student subject", Student.getSubject());
+
+function  hello( n = bye){
+   console.log(n())
+}
+
+hello();

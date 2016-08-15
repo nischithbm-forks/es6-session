@@ -1,29 +1,8 @@
-//Use of var
-function hello(){
-    if( 5 > 4 ){
-        var a = 7;
-        console.log(" var a: ", a);
+class Student{
+    constructor(name, score){
+        this.name = name;
+        this.score = score
     }
-    console.log("var a: ", a);
 }
-hello();
-
-//Use of let
-function hello(){
-    if( 5 > 4 ){
-        let a = 7;
-        console.log("let a: ", a);
-    }
-    console.log("let a: ", a);
-}
-hello();
-
-//Use of  constant
-function hello(){
-  if( 5 > 4 ){
-    const a = 7;
-  }const a = 7;
-   console.log("const a: ", a);
-}
-hello();
-
+var student1 = new Student("Harpreet", 95);
+console.log("student1", student1);
