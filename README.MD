@@ -3,4 +3,5 @@
 - Let, const
 - classes & Inheritance
 - default parameters
+- binary and octal literal
  
