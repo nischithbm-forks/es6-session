@@ -16,4 +16,4 @@ class ScienceStudent extends Student{
 }
 
 var student1 = new ScienceStudent("Sandeep", "Biology");
-console.log("student1.name", student1.student1.showName());
+console.log("student1.name", student1.showName());
